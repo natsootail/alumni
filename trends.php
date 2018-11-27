@@ -417,6 +417,7 @@ jQuery(function($){
 							unemps.push(respo[i].unemps);
 					}
 					if(parseInt(respo.total) > 10){
+						alert(respo.total);
 						var totalAlumni = respo.total;
 					}else{
 						var totalAlumni = 10;

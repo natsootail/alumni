@@ -41,7 +41,7 @@
 			</div>
 			<div class="cu-item">
 				<div class="cu-label"> <img src="imgs/fb.png"/> </div>
-				<div class="cu-text"> <a href="https://facebook.com/cictwvsu" target="_blank">facebook.com/cictwvsu</a> </div>
+				<div class="cu-text"> <a href="https://facebook.com/" target="_blank">facebook.com/cictwvsu</a> </div>
 			</div>
 			<div class="cu-item">
 				<div class="cu-label"> <img src="imgs/twitter.png"/> </div>
