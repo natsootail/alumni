@@ -53,6 +53,7 @@ canvas{
 		transform: scale(.8);
 	}
 	img.trends-header{ margin-top: 0; padding: 0; }
+
 }
 </style>
 
@@ -249,7 +250,7 @@ $(document) .on('change','input#tFilter',function(){
 			$(thisLabel).appendTo(dest);
 		},450);
 });
-	
+
 });
 </script>
 <div class="tFilters-wrapper">
@@ -417,7 +418,6 @@ jQuery(function($){
 							unemps.push(respo[i].unemps);
 					}
 					if(parseInt(respo.total) > 10){
-						alert(respo.total);
 						var totalAlumni = respo.total;
 					}else{
 						var totalAlumni = 10;
@@ -596,8 +596,8 @@ jQuery(function($){
 				//}
 			}
 		});
-		
+
 	});
-	
+
 });
 </script>

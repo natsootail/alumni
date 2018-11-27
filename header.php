@@ -276,7 +276,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	.at-snackbar.error{
 		background: #ff3333;
 	}
-	
+
 	@keyframes fadeIn{
 		0%{
 			opacity: 0;
@@ -317,7 +317,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	.admin-loginform input{
 		padding: 2px;
 	}
-	
+
 	.at-navbar{
 		position: fixed;
 		left: 15px;
@@ -424,7 +424,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	}
 	.graduates-header{
 		background: #333;
-		color: white;		
+		color: white;
 		padding: 8px 0;
 		position: relative;
 		border-bottom: 1px solid white;
@@ -499,7 +499,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	}
 	.alumni-fieldset .input-wrapper input[type="date"]{
 		font-size: 12px;
-		
+
 	}
 	.alumni-fieldset .input-wrapper input,
 	.alumni-fieldset .input-wrapper textarea,
@@ -866,7 +866,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 		text-align: left;
 	}
 	.stars-wrapper{
-		
+
 	}
 	.stars-wrapper span{
 		color: #0099ff;
@@ -1088,7 +1088,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 		font-size: 80px;
 		text-align: center;
 		width: 100%;
-		text-shadow: 5px 5px 3px grey;		
+		text-shadow: 5px 5px 3px grey;
 	}
 	.pi-header{
 		position: relative;
@@ -1527,14 +1527,14 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	.asf-skills-cell:last-child{
 		border-right: none;
 	}
-	
+
 	.skills-category{
 		font-size: 20px;
 		background: #d5d5d5;
 		padding: 8px;
 	}
 	.skills-rating-wrapper{
-		
+
 	}
 	.skills-label{
 		padding: 8px;
@@ -1568,7 +1568,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	div#company-field{
 		display: none;
 	}
-	
+
 	.view-rating{
 		width: 80%;
 		margin: 50px auto;
@@ -1913,7 +1913,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 		font-weight: bold;
 	}
 	.certificate-desc p{
-		
+
 	}
 	th.companies-matched-header{
 		font-size: 25px;
@@ -2155,7 +2155,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 		text-align: center;
 	}
 	.we-cell#company{
-//		flex-basis: 370px;	
+//		flex-basis: 370px;
 		flex-grow: 2;
 	}
 	.we-cell#position-level{
@@ -2248,7 +2248,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 	}
 	@media only screen and(min-width: 600px){
 		/* For Tablets */
-		
+
 	}
 	@media only screen and (min-width: 768px){
 		/* For Desktop */
@@ -2309,7 +2309,7 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 			width: 100%;
 			margin: 0;
 		}
-		
+
 		label.alumni-actions-dd input + div{
 			left: initial;
 			right: 0;
@@ -2635,5 +2635,3 @@ if(isset($_SESSION['redirect']) && $_SESSION['redirect'] == 1){
 		</div>
 	</div>
 	!-->
-	
-	

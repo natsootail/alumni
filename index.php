@@ -167,7 +167,7 @@ include 'nav.php';
 		align-content: center;
 	}
 	div#mvg-modal h4{
-		font-weight: bold;	
+		font-weight: bold;
 		text-align: center;
 		font-size: 35px;
 		font-variant: small-caps;
@@ -403,22 +403,31 @@ include 'nav.php';
 		<div class="image-preview"></div>
 		<div class="carousel-items">
 			<div class="carousel-item">
-				<img src="elements/img/dave_why.PNG" />
+				<img src="elements/img/7.jpg" />
 			</div>
 			<div class="carousel-item">
-				<img src="elements/img/desert.jpg" />
+				<img src="elements/img/10.jpg" />
 			</div>
 			<div class="carousel-item">
-				<img src="elements/img/Koala.jpg" />
+				<img src="elements/img/11.jpg" />
 			</div>
 			<div class="carousel-item">
-				<img src="elements/img/Lighthouse.jpg" />
+				<img src="elements/img/12.jpg" />
 			</div>
 			<div class="carousel-item">
-				<img src="elements/img/Penguins.jpg" />
+				<img src="elements/img/13.jpg" />
 			</div>
 			<div class="carousel-item">
-				<img src="elements/img/Tulips.jpg" />
+				<img src="elements/img/14.jpg" />
+			</div>
+			<div class="carousel-item">
+				<img src="elements/img/15.jpg" />
+			</div>
+			<div class="carousel-item">
+				<img src="elements/img/8.jpg" />
+			</div>
+			<div class="carousel-item">
+				<img src="elements/img/9.jpg" />
 			</div>
 		</div>
 		<div class="carousel-nav">
@@ -451,7 +460,7 @@ include 'nav.php';
 				$course_id[5] = "EMC";
 				foreach($courses AS $i => $course){
 					?>
-					<div class="co-item"> 
+					<div class="co-item">
 						<div class="coi-icon"> <img src="<?php echo $logo[$i]; ?>" /> </div>
 						<div class="coi-text" data-id="<?php echo $course_id[$i];?>"> <?php echo $course; ?>  </div>
 					</div>

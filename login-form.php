@@ -20,7 +20,7 @@
 		cursor: pointer;
 	}
 	.header{
-		background: url('elements/img/Penguins.jpg') no-repeat;
+		background: url('elements/img/ads.png') no-repeat;
 		background-size: 100% 100%;
 	}
 	.header-txt{
@@ -391,7 +391,7 @@
 	.at-snackbar.error{
 		background: #ff3333;
 	}
-	
+
 	@keyframes fadeIn{
 		0%{
 			opacity: 0;
@@ -589,7 +589,7 @@
 			}
 		});
 	});
-		
+
 	$(document) .on('submit','form#login-form',function(e){
 		var form1 = new FormData(this);
 		e.preventDefault();
@@ -616,7 +616,7 @@
 			}
 		});
 	});
-		
+
 	});
 	</script>
 </head>
@@ -652,19 +652,22 @@
 <div class="at-gallery">
 	<div class="atg-items">
 		<div class="atg-item active">
-			<img src="elements/img/Tulips.jpg" />
+			<img src="elements/img/2.jpg" />
+		</div>
+		<div class="atg-item active">
+			<img src="elements/img/1.jpg" />
 		</div>
 		<div class="atg-item">
-			<img src="elements/img/Koala.jpg" />
+			<img src="elements/img/3.jpg" />
 		</div>
 		<div class="atg-item">
-			<img src="elements/img/Lighthouse.jpg" />
+			<img src="elements/img/4.jpg" />
 		</div>
 		<div class="atg-item">
-			<img src="elements/img/Desert.jpg" />
+			<img src="elements/img/5.jpg" />
 		</div>
 		<div class="atg-item">
-			<img src="elements/img/Penguins.jpg" />
+			<img src="elements/img/6.jpg" />
 		</div>
 	</div>
 	<div class="atg-nav">
