@@ -1,0 +1,41 @@
+	var employment_status = $('input#employment-status:checked').val();
+	personal_data['employment-status'] = employment_status;
+	if(employment_status == 'Employed'){
+		personal_data['employer-name'] = $('input#employer-name').val();
+		personal_data['org-type'] = $('input#org-type:checked').val();
+		personal_data['employment-type'] = $('input#employment-type-val').val();
+		personal_data['occupation-type'] = $('input#occupation-type-val').val();
+		personal_data['num-of-months'] = $('select#num-of-months').val();
+		personal_data['place-of-work'] = $('select#place-of-work').val();
+		personal_data['is-first-job'] = $('select#is-first-job').val();
+		personal_data['reason'] = $('textarea#reason').val();
+		personal_data['designation'] = $('input#designation').val();
+		personal_data['department'] = $('input#department').val();
+		personal_data['status'] = $('select#status').val();
+		personal_data['monthly-income-range'] = $('select#monthly-income-range').val();
+		personal_data['workfield'] = $('input#workfield').val();
+	}else if(employment_status == 'Self-Employed'){
+		personal_data['nature-of-employment'] = $('input#nature-of-employment').val();
+		personal_data['num-of-years'] = $('select#num-of-years').val();
+		personal_data['monthly-income-range'] = $('select#monthly-income-range').val();
+		personal_data['workfield'] = $('input#workfield').val();
+	}else if(employment_status == 'Unemployed'){
+		personal_data['unemployed-reason'] = $('textarea#unemployed-reason').val();
+		personal_data['workfield'] = "N/A";
+		$('.alumni-input-row#question-row input:checked') .each(function(){
+			var id = $(this).attr('id');
+			personal_data[id] = $(this).val();
+		});
+		$.ajax({
+			'type' : 'post',
+			'url' : 'validate-alumni-rating.php',
+			'data' : personal_data,
+			'success' : function(response){
+				if(response == "SUCCESS!"){
+				}else{
+					alert(response);
+					err++;
+				}
+			}
+		});
+	}
