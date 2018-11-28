@@ -103,7 +103,7 @@ if($select->num_rows == 0){
 			}
 		}
 	}else{
-		$msg = "PLEASE MAKE SURE YOU FILLED YOUR PERSONAL INFORMATION CORRECTLY.";
+		$msg = "PLEASE MAKE SURE YOU FILLED YOUR PERSONAL INFORMATION CORRECTLY. ".mysqli_error($db);
 		$err++;
 	}
 }else{
